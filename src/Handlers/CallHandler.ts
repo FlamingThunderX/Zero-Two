@@ -34,6 +34,7 @@ export default class CallHandler {
         await this.client.sendMessage(
 					caller,
 					
+		                        MessageType.text
 				);
 				
     }
